@@ -5,6 +5,6 @@ const horizontaldivider =()=>{
   return (
     <div className="divider"></div>
   );
-}
+};
 export default horizontaldivider;
 

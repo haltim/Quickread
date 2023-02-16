@@ -1,0 +1,43 @@
+.blog-post {
+    margin: 20px;
+  }
+  
+  .blog-post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post-title {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .home-link {
+    font-size: 1.5em;
+  }
+  
+  .blog-post-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .blog-post-date {
+    font-size: 0.8em;
+    margin-right: 10px;
+  }
+  
+  .blog-post-image {
+    margin-bottom: 20px;
+  }
+  
+  .blog-post-image img {
+    width: 100%;
+  }
+  
+  .blog-post-content {
+    line-height: 1.5;
+  }
+  

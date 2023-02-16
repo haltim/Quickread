@@ -1,9 +1,11 @@
 import React from 'react';
 import './BlogPost.css';
 import Vector from "../img/Vector.png";
+import horizontaldivider from "../components/horizontaldivider"
 
 const BlogCard = (props) => {
   return (
+    <>
     <div className='blog-card'>
       <div className="blog-card-con">
         <div className="blog-card-header">
@@ -19,6 +21,9 @@ const BlogCard = (props) => {
       </div>
 
     </div>
+    <horizontaldivider />
+    </>
+
   );
 };
 
