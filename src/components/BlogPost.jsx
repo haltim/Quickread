@@ -1,7 +1,7 @@
 import React from 'react';
 import './BlogPost.css';
 import Vector from "../img/Vector.png";
-import horizontaldivider from "../components/horizontaldivider"
+
 
 const BlogCard = (props) => {
   return (
@@ -20,9 +20,8 @@ const BlogCard = (props) => {
       <div className="blog-card-image">
         <img src={Vector} alt={props.title} />
       </div>
-
     </div>
-    <horizontaldivider />
+    <div className="divider"></div>
     </>
 
   );

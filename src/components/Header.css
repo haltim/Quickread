@@ -5,14 +5,64 @@ header {
     color: #000;
     margin-left: 20px;
   }
-  
   .header-title {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
     justify-content: flex-start;
-
   }
+  .search-container {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    overflow: hidden;
+    transition:none;
+    position: fixed;
+    top: 110px;
+    right: 170px;
+    z-index: 999;
+    
+  }
+  
+  .search-container:focus-within {
+    width: 500px;
+  }
+  
+  input {
+    flex: 1;
+    height: 100%;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    background-color: transparent;
+  }
+    .search-btn {
+      width: 60px;
+      height: 100%;
+      border: none;
+      background-color: #160404;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  
+  
+  .search-btn:hover {
+    background-color: #ec0404;
+  }
+ 
   
   .header-content {
     display: flex;
@@ -22,7 +72,7 @@ header {
   
   .logo {
     display: flex;
-    margin-right: 20px;
+   justify-content: flex-start;
     margin-bottom: 10px;
   }
   
@@ -31,7 +81,6 @@ header {
     height: 20px;
     margin-right: 10px;
   }
-  
   nav ul {
     list-style: none;
     display: flex;
@@ -65,8 +114,9 @@ header {
     display: none;
   }
   .hamburger {
-      display:block;
-  }
+    display:block;
+   
+}
 
   .nav-menu {
       position: absolute;
@@ -94,6 +144,22 @@ header {
 
   .nav-menu a {
       font-size: 1.2rem;
+  }
+  .search-container {
+    width: 200px;
+    top: 155px;
+    left: 15px;
+    z-index: 999;
+    height: 35px;
+    margin: 1px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    overflow: hidden;
+    transition:none;
+  }
+
+  .search-container:focus-within {
+    width: 200px;
   }
 }
 

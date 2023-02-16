@@ -20,6 +20,7 @@
   display: flex;
   flex-direction: row;
   width: 50%;
+  cursor: pointer;
   
 }
 
@@ -43,12 +44,14 @@
   font-weight: bold;
   color: #999;
   margin-left: 20px;
+  cursor: pointer;
 }
 .blog-card-time{
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   color: #000000;
   margin-left: 20px;
+  margin-top: 4px;
 }
 
 .blog-card-title {
@@ -60,12 +63,18 @@
 .blog-card-image {
   width: 30%;
   margin-top: 60px;
+  cursor: pointer;
 
 }
 
 .blog-card-image img {
   width: 30%;
   height: 50%;
+}
+.divider {
+  height: 1px;
+  margin: 10px 0;
+  background-color: #100404;
 }
 
 @media screen and (max-width:1240px) {
