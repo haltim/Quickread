@@ -1,4 +1,12 @@
-.blog-card {
+.blog-card{
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  flex-direction: row;
+}
+.blog-card-con {
   display: flex;
   border-radius: 5px;
   overflow: hidden;
@@ -21,9 +29,6 @@
   
 }
 
-.blog-card-rowcon{
-  flex-direction: row;
-}
 .blog-card-category {
   font-size: 14px;
   font-weight: bold;
@@ -46,6 +51,7 @@
 
 .blog-card-image {
   width: 30%;
+  margin-top: 60px;
   
 }
 
