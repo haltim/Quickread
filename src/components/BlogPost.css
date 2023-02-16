@@ -44,6 +44,12 @@
   color: #999;
   margin-left: 20px;
 }
+.blog-card-time{
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 20px;
+}
 
 .blog-card-title {
   font-size: 20px;
