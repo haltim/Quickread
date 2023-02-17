@@ -4,9 +4,9 @@ import BlogPost from "./BlogPost";
 
 function Home() {
   return (
-    <>
+    <div id="home">
      <BlogPost />
-    </>
+    </div>
   );
 }
 
